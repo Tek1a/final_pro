@@ -1,0 +1,128 @@
+footer {
+  background-color: rgb(62, 60, 60);
+}
+footer h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+footer .photo-div {
+  display: flex;
+  justify-content: center;
+}
+footer .main {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .main .second div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+footer .main div.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer .main div.first a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: rgb(243, 191, 86);
+}
+body nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body nav img {
+  margin-left: 70px;
+}
+body nav .list {
+  margin-right: 70px;
+}
+body nav div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+body nav div a {
+  text-decoration: none;
+  color: rgb(0, 0, 100);
+}
+body nav div a.main {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(0, 0, 136);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(61, 61, 248);
+}
+
+body nav {
+  margin: 0px 70px 0px 70px;
+}
+@media (width <= 750px) {
+  body nav img {
+    margin-left: 20px;
+  }
+}
+body .main1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0px 70px 0px 70px;
+}
+body .main1 section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+@media (width <= 750px) {
+  body .main1 section {
+    flex-direction: column;
+  }
+}
+body .main1 section h4 {
+  font-size: 25px;
+}
+body .main1 section p {
+  font-size: 18px;
+}
+body .main1 section img {
+  width: 280px;
+  height: 450px;
+}
+@media (width <= 750px) {
+  body footer .main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (width <= 750px) {
+  body footer .main .first {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (width <= 750px) {
+  body footer .main .first a {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=books.css.map */
